@@ -10,15 +10,16 @@ html, body{
    height: 100%;
 }
 #wrapper{
-   height: 70vh;
+   height: 100vh;
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: #0000003e;
 }
 #card{
-   border: 2px solid black;
-   height: 50%;
-   width: 20%;
+   height: 300px;
+   width: 300px;
+   background-color: #fff;
    border-radius: 15px;   
 }
 h2{
@@ -26,12 +27,12 @@ h2{
    margin: 15px 0px;
 }
 form{
-   text-align: center;
+   transform: translateX(20px);
 }
 input[type="text"],[type="password"]{
    border: none;
    border-bottom: 1px solid black;
-   padding: 3px 45px;
+   padding: 5px 45px;
    text-align: left;
 }
 input[type="submit"]{
@@ -39,8 +40,9 @@ input[type="submit"]{
    margin-top: 5px;
    border: none;
    border-radius: 4px;
+   font-weight: 500;
    background-color: rgb(30, 135, 240);
 }
 input[type="submit"]:hover{
-   background-color: rgb(18, 89, 160);
+   background-color: rgb(18, 89, 160);   
 }
